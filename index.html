@@ -158,7 +158,13 @@
               },
               'paint': {
                 'circle-radius': 5,
-                'circle-color': "#0074D9",
+                'circle-color': [
+                  "match",
+                  ["get","Pocket Park"],
+                  "1",
+                  "#2ECC40",
+                  "#0074D9"
+                  ],
                 'circle-stroke-color': "#FFFFFF",
                 'circle-stroke-width': 2
               }
